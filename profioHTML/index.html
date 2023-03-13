@@ -2,11 +2,41 @@
 <html lang="zh-TW">
 <head>
     <meta charset="utf-8">
+    <title>jessica | blog</title>
 
 </head>
 <body>
+    <!--header starts -->
+    <header>
+            <h2><a href="#" class="logo">Jessica's website</a></h2>
+            <style>
+                .logo{
+                    color:white;
+                    text-decoration:none;
+                    display:inline-block;
+                    font-family:sans-serif;
+                }
+            </style>
+        <div class="navbar" >
+            <nav>
+                <h3><a href="#about">about</a></h3>
+                <h3><a href="#profio">portfolio</a></h3>
+            </nav>
+            <style>
+                .navbar h3 a{
+                    float:right;
+                    color:white;
+                    text-decoration:none;
+                    display:block;
+                    font-family:sans-serif;
+                }
+            </style>
+        </div>
+    </header>
+    <!-- header end-->
+    <h6 id="about" style="color:white;text-align:center;font-size:2vw;font-family:sans-serif;"><strong>about</strong></h6>
     <div id="intro">
-    <h3>我是許郁婕，目前就讀於國立臺灣大學圖書資訊學系二年級。<br>這是我的作品集網站。<h3>
+    <h6>我是許郁婕，目前就讀於國立臺灣大學圖書資訊學系二年級。<br>這是我的作品集網站。<h6>
     </div>
     <style>
     #intro{
@@ -15,7 +45,8 @@
         font-size:3vw;
     }
     </style>
-    <div id="profio">
+    <h6 style="color:white;text-align:center;font-size:2vw;font-family:sans-serif;"><strong>portfolio</strong></h6>
+    <div id="profio" class="portf">
         <h3><a href="oops.html" target="_blank">2021圖資週 文案＆攝影</a></h3>
         <h3><a href="https://m.facebook.com/people/2022%E5%8F%B0%E5%A4%A7%E5%9C%96%E8%B3%87%E9%80%B1%E8%90%AC%E5%9C%96three/100075880215673/" target="_blank">2022圖資週 行宣長</a></h3>
         <h3><a href="https://vs.co/f0q8pae3"target="_block">攝影作品</a></h3>
@@ -53,6 +84,7 @@
     body{
         background-color:black;
         font-family: 'cwTeXFangSong', serif;
+        
     }
 </style>
 </body>
